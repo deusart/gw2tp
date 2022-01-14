@@ -1,0 +1,2 @@
+Листинг продажи-покупки: https://wiki.guildwars2.com/wiki/API:2/commerce/listings
+Товары: https://wiki.guildwars2.com/wiki/API:2/items
