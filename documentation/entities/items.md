@@ -10,26 +10,25 @@
 **level** (number) – The required level.  
 **vendor_value** (number) – The value in coins when selling to a vendor. (Can be non-zero even when the item has the NoSell flag.)  
 **default_skin** (number, optional) – The default skin id.  
-**flags** (array of strings) – Flags applying to the item.  
+**flags** (array of strings) – Flags applying to the item. Possible values:  
 ```
-    Values:
-    AccountBindOnUse – Account bound on use
-    AccountBound – Account bound on acquire
-    Attuned - If the item is Attuned
-    BulkConsume - If the item can be bulk consumed
-    DeleteWarning - If the item will prompt the player with a warning when deleting
-    HideSuffix – Hide the suffix of the upgrade component
-    Infused - If the item is infused
-    MonsterOnly
-    NoMysticForge – Not usable in the Mystic Forge
-    NoSalvage – Not salvageable
-    NoSell – Not sellable
-    NotUpgradeable – Not upgradeable
-    NoUnderwater – Not available underwater
-    SoulbindOnAcquire – Soulbound on acquire
-    SoulBindOnUse – Soulbound on use
-    Tonic - If the item is a tonic
-    Unique – Unique
+AccountBindOnUse – Account bound on use
+AccountBound – Account bound on acquire
+Attuned - If the item is Attuned
+BulkConsume - If the item can be bulk consumed
+DeleteWarning - If the item will prompt the player with a warning when deleting
+HideSuffix – Hide the suffix of the upgrade component
+Infused - If the item is infused
+MonsterOnly
+NoMysticForge – Not usable in the Mystic Forge
+NoSalvage – Not salvageable
+NoSell – Not sellable
+NotUpgradeable – Not upgradeable
+NoUnderwater – Not available underwater
+SoulbindOnAcquire – Soulbound on acquire
+SoulBindOnUse – Soulbound on use
+Tonic - If the item is a tonic
+Unique – Unique
 ```
 **game_types** (array of strings) – The game types in which the item is usable. At least one game type is specified.  
 **restrictions** (array of strings) – Restrictions applied to the item.  
