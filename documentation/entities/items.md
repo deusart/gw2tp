@@ -30,7 +30,7 @@
 - Rare
 - Exotic
 - Ascended
-- Legendary
+- Legendary  
 **level** (number) – The required level.  
 **vendor_value** (number) – The value in coins when selling to a vendor. (Can be non-zero even when the item has the NoSell flag.)  
 **default_skin** (number, optional) – The default skin id.  
@@ -51,26 +51,26 @@
 - SoulbindOnAcquire – Soulbound on acquire
 - SoulBindOnUse – Soulbound on use
 - Tonic - If the item is a tonic
-- Unique – Unique
+- Unique – Unique  
 **game_types** (array of strings) – The game types in which the item is usable. At least one game type is specified.  Possible values:
 - Activity – Usable in activities
 - Dungeon – Usable in dungeons
 - Pve – Usable in general PvE
 - Pvp – Usable in PvP
 - PvpLobby – Usable in the Heart of the Mists
-- Wvw – Usable in World vs. World
+- Wvw – Usable in World vs. World  
 **restrictions** (array of strings) – Restrictions applied to the item. Possible values:
 - Activity – Usable in activities
 - Dungeon – Usable in dungeons
 - Pve – Usable in general PvE
 - Pvp – Usable in PvP
 - PvpLobby – Usable in the Heart of the Mists
-- Wvw – Usable in World vs. World
+- Wvw – Usable in World vs. World  
 **upgrades_into** (array, optional) – Lists what items this item can be upgraded into, and the method of upgrading. Each object in the array has the following attributes:
 - upgrade (string) – Describes the method of upgrading. Possible values:
-- - Attunement
-- - Infusion    
-- item_id (integer) – The item ID that results from performing the upgrade.
+    - Attunement
+    - Infusion    
+- item_id (integer) – The item ID that results from performing the upgrade.  
 **upgrades_from** (array, optional) – Lists what items this item can be upgraded from, and the method of upgrading. See upgrades_into for format.  
 **details** (object, optional) – Additional item details if applicable, depending on the item type (see below).  
 
