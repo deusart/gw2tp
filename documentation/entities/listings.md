@@ -17,16 +17,16 @@ https://wiki.guildwars2.com/wiki/API:2/commerce/listings
 - quantity (number) – The amount of items being sold/bought in this listing.
 
 ## Staging data
-**id** (bigint)
-**type** (nvarchar(4)) Possible values:  
-- buy
-- sell
+- **id** (bigint)
+- **type** (nvarchar(4)) Possible values:  
+  - buy
+  - sell
 
-**listings** (bigint)
-**unit_price** (bigint)
-**quantity** (bigint)
-**hash_diff** (binary(16))
-**created_at** (datetime)
+- **listings** (bigint)
+- **unit_price** (bigint)
+- **quantity** (bigint)
+- **hash_diff** (binary(16))
+- **created_at** (datetime)
 
 ## Web API Request example
 **One Item request (GET):**  
