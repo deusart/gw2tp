@@ -80,4 +80,53 @@
 **upgrades_from** (array, optional) – Lists what items this item can be upgraded from, and the method of upgrading. See upgrades_into for format.  
 **details** (object, optional) – Additional item details if applicable, depending on the item type (see below).  
 
-## Needed Fields
+## Needed Fields  
+**id** (number)  
+**name** (string)  
+**type** (string)  
+**rarity** (string)  
+**level** (number)  
+**vendor_value** (number)  
+**flags** (array of strings)  
+**game_types** (array of strings)  
+**restrictions** (array of strings)  
+
+## Web API Request example
+**One Item equest (GET):**  
+```
+https://api.guildwars2.com/v2/items/12452
+```
+**List of Items (GET):**  
+```
+https://api.guildwars2.com/v2/items
+```
+**Response example**
+```
+{
+  "name": "Omnomberry Bar",
+  "type": "Consumable",
+  "level": 80,
+  "rarity": "Fine",
+  "vendor_value": 33,
+  "game_types": [
+    "Wvw",
+    "Dungeon",
+    "Pve"
+  ],
+  "flags": [
+    "NoSell"
+  ],
+  "restrictions": [],
+  "id": 12452,
+  "chat_link": "[&AgGkMAAA]",
+  "icon": "https://render.guildwars2.com/file/6BD5B65FBC6ED450219EC86DD570E59F4DA3791F/433643.png",
+  "details": {
+    "type": "Food",
+    "duration_ms": 1800000,
+    "apply_count": 1,
+    "name": "Nourishment",
+    "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+    "description": "30% Magic Find\n40% Gold from Monsters\n+10% Experience from Kills"
+  }
+}
+```
