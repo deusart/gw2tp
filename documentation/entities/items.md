@@ -1,6 +1,9 @@
 # Items
 An item refers to any object which can physically appear in a character's inventory. The definition can be extended to bundles, objects the player can find in the environment and interact with but cannot keep. This is supported by consumable items that give bundles when used. This broad term therefore encompasses everything the player can carry, wield, wear, create or purchase. 
 
+## Wiki Link
+https://wiki.guildwars2.com/wiki/API:2/items
+
 ## Fields:  
 **id** (number) – The item id.  
 **chat_link** (string) – The chat link.  
@@ -94,13 +97,9 @@ An item refers to any object which can physically appear in a character's invent
 **restrictions** (array of strings)  
 
 ## Web API Request example
-**One Item equest (GET):**  
+**One Item request (GET):**  
 ```
 https://api.guildwars2.com/v2/items/12452
-```
-**List of Items (GET):**  
-```
-https://api.guildwars2.com/v2/items
 ```
 **Response example**
 ```
@@ -131,4 +130,19 @@ https://api.guildwars2.com/v2/items
     "description": "30% Magic Find\n40% Gold from Monsters\n+10% Experience from Kills"
   }
 }
+```
+
+**List of Items (GET):**  
+```
+https://api.guildwars2.com/v2/items
+```
+**Response example**
+```
+[
+  24,
+  68,
+  69,
+  70,
+  …
+]
 ```
