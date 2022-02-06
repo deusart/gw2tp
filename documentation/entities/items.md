@@ -1,4 +1,6 @@
 # Items
+An item refers to any object which can physically appear in a character's inventory. The definition can be extended to bundles, objects the player can find in the environment and interact with but cannot keep. This is supported by consumable items that give bundles when used. This broad term therefore encompasses everything the player can carry, wield, wear, create or purchase. 
+
 ## Fields:  
 **id** (number) – The item id.  
 **chat_link** (string) – The chat link.  
