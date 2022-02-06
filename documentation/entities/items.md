@@ -85,16 +85,18 @@ https://wiki.guildwars2.com/wiki/API:2/items
 **upgrades_from** (array, optional) – Lists what items this item can be upgraded from, and the method of upgrading. See upgrades_into for format.  
 **details** (object, optional) – Additional item details if applicable, depending on the item type (see below).  
 
-## Needed Fields  
-**id** (number)  
-**name** (string)  
-**type** (string)  
-**rarity** (string)  
-**level** (number)  
-**vendor_value** (number)  
-**flags** (array of strings)  
-**game_types** (array of strings)  
-**restrictions** (array of strings)  
+## Staging data
+**id** (bigint)  
+**name** (nvarchar(max))  
+**type** (nvarchar(50))  
+**rarity** (nvarchar(20))  
+**level** (int)  
+**vendor_value** (bigint)  
+**flags** (nvarchar(max))  
+**game_types** (nvarchar(max))  
+**restrictions** (nvarchar(max))  
+**hash_diff** (binary(16))
+**created_at** (datetime)
 
 ## Web API Request example
 **One Item request (GET):**  
