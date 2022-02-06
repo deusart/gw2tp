@@ -86,17 +86,17 @@ https://wiki.guildwars2.com/wiki/API:2/items
 **details** (object, optional) – Additional item details if applicable, depending on the item type (see below).  
 
 ## Staging data
-**id** (bigint)  
-**name** (nvarchar(max))  
-**type** (nvarchar(50))  
-**rarity** (nvarchar(20))  
-**level** (int)  
-**vendor_value** (bigint)  
-**flags** (nvarchar(max))  
-**game_types** (nvarchar(max))  
-**restrictions** (nvarchar(max))  
-**hash_diff** (binary(16))
-**created_at** (datetime)
+- **id** (bigint)  
+- **name** (nvarchar(max))  
+- **type** (nvarchar(50))  
+- **rarity** (nvarchar(20))  
+- **level** (int)  
+- **vendor_value** (bigint)  
+- **flags** (nvarchar(max))  
+- **game_types** (nvarchar(max))  
+- **restrictions** (nvarchar(max))  
+- **hash_diff** (binary(16))
+- **created_at** (datetime)
 
 ## Web API Request example
 **One Item request (GET):**  
