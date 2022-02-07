@@ -1,0 +1,29 @@
+-----------------------Items---------------------------
+create table Items
+(
+	id bigint primary key,
+	name text,  --nvarchar(max)
+	type varchar(50), --nvarchar(50)
+	rarity varchar(20),  --nvarchar(20)
+	level int,
+	vendor_value bigint,
+	flags text,  --nvarchar(max),
+	game_types text, --nvarchar(max),
+	restrictions text, --nvarchar(max),
+	hash_diff bytea, --binary(16),
+	created_at TIMESTAMP --datetime
+)
+
+---------------------Listings------------------------------
+create table Listings
+(
+	id bigint primary key,
+	itemId bigint,
+	type varchar(4),
+	listings bigint,
+	unit_price bigint,
+	quantity bigint,
+	hash_diff bytea, --binary(16)
+	created_at TIMESTAMP, --datetime
+	FOREIGN KEY(itemId) REFERENCES Items(id)
+)
