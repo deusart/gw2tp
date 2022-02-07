@@ -1,1 +1,7 @@
-test
+Установка и использование PostgreSQL на Ubuntu 18.04:
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04-ru
+
+Установка для Windows:
+1. https://www.postgresql.org/download/ Скачиваем нужную нам инсталяшку
+2. Открываем пошаговую инструкцию по установки PgSQL (Пошаговая инструкция.docx)
+

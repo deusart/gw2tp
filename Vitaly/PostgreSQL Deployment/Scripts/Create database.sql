@@ -1,0 +1,1 @@
+create database gw2tp;
