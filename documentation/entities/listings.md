@@ -5,16 +5,16 @@ Current buy and sell listings for items from the trading post.
 https://wiki.guildwars2.com/wiki/API:2/commerce/listings
 
 ## Fields:  
-**id** (number) – The item id.  
-**buys** (array) – A list of all buy listings, ascending from lowest buy order. Each listing object has the following properties:  
-- listings (number) – The number of individual listings this object refers to (e.g. two players selling at the same price will end up in the same listing)  
-- unit_price (number) – The sell offer or buy order price in coins.  
-- quantity (number) – The amount of items being sold/bought in this listing.
+- **id** (number) – The item id.  
+- **buys** (array) – A list of all buy listings, ascending from lowest buy order. Each listing object has the following properties:  
+  - listings (number) – The number of individual listings this object refers to (e.g. two players selling at the same price will end up in the same listing)  
+  - unit_price (number) – The sell offer or buy order price in coins.  
+  - quantity (number) – The amount of items being sold/bought in this listing.
 
-**sells** (array) – A list of all sell listings, ascending from lowest sell offer. Each listing object has the following properties:  
-- listings (number) – The number of individual listings this object refers to (e.g. two players selling at the same price will end up in the same listing)  
-- unit_price (number) – The sell offer or buy order price in coins.  
-- quantity (number) – The amount of items being sold/bought in this listing.
+- **sells** (array) – A list of all sell listings, ascending from lowest sell offer. Each listing object has the following properties:  
+  - listings (number) – The number of individual listings this object refers to (e.g. two players selling at the same price will end up in the same listing)  
+  - unit_price (number) – The sell offer or buy order price in coins.  
+  - quantity (number) – The amount of items being sold/bought in this listing.
 
 ## Staging data
 - **id** (bigint)
