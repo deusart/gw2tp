@@ -18,10 +18,10 @@ https://wiki.guildwars2.com/wiki/API:2/commerce/listings
 
 ## Staging data
 - **id** (bigint)
+- **listing_date** (datetime)
 - **type** (nvarchar(4)) Possible values:  
   - buy
-  - sell
-
+  - sell  
 - **listings** (bigint)
 - **unit_price** (bigint)
 - **quantity** (bigint)
